@@ -17,7 +17,7 @@ class App < Sinatra::Base
     @phrase = params[:phrase]
     number = @number.to_i
     phrase = []
-    @number.times {phrase << @phrase+"\n"}
+    @number.times {phrase << "#{@phrase}"}.join("")
     phrase
   end 
 
