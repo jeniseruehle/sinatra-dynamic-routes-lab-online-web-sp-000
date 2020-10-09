@@ -32,5 +32,12 @@ class App < Sinatra::Base
     num1 = @number1.to_i
     num2 = @number2.to_i
     
+    case @operation
+    when 'add'
+      "#{num1 + num2}"
+    when 'subtract'
+      "#{num1 - num2}"
+    when 'multiply'  
+    
   end 
 end
