@@ -12,7 +12,6 @@ class App < Sinatra::Base
     num = @num.to_i 
     square = num ** 2 
     "#{square}"
-
   end 
   
   get "/say/:number/:phrase" do 
