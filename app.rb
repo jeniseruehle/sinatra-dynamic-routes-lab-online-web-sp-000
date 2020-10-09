@@ -9,7 +9,7 @@ class App < Sinatra::Base
     
   end 
   
-  get "" do 
+  get "/say/:number/:phrase" do 
     
   end 
 
