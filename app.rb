@@ -5,7 +5,7 @@ class App < Sinatra::Base
     
   end 
 
-  get "" do 
+  get "/square/:number" do 
     
   end 
   
